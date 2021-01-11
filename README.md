@@ -4,29 +4,29 @@ Generate markdown tree of all the files in a directory, recursively.
 
 ## How to use?
 
-### Install the script
+### Download the script
 
 ```bash
-$ npm install md-file-tree -g
+$ git clone https://github.com/burturt/md-file-tree.git
 ```
 
 ### Run the tree script in any directory
 
 ```bash
-$ md-file-tree
+$ ../path/to/index.js
 ```
 
 ### Enable emoji (📂 & 📄) with the command line switch
 
 ```bash
-$ md-file-tree --emoji
-$ md-file-tree -e
+$ ../path/to/index.js --emoji
+$ ../path/to/index.js -e
 ```
 
 ### Redirect the output to a file
 
 ```bash
-$ md-file-tree > list.md
+$ ../path/to/index.js > list.md
 ```
 
 This generates the `list.md` file with:
